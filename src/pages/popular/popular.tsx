@@ -114,7 +114,7 @@ const Popular = (props: Props) => {
   return (
     <div className="flex text-sm max-h-min overflow-y-scroll scrolldesign text-gray-400 flex-col w-full justify-center items-center h-full">
       <Grid container className="w-full">
-        <Grid item height={500} xs={12}>
+        <Grid item height={"50%"} xs={12} className="pt-24">
           <Coverinfo
             title={popular.title}
             follower={popular.follower}

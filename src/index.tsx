@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import { Loading } from "./utils/loading";
+import Loading from "./utils/loading";
 import "./lang/i18n";
 
 const App = React.lazy(() => import("./App"));

@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 
 interface Props {}
 
-export const Loading: React.FC<Props> = () => {
+const Loading: React.FC<Props> = () => {
   useEffect(() => {
     gsap
       .fromTo(
@@ -27,6 +27,8 @@ export const Loading: React.FC<Props> = () => {
     </div>
   );
 };
+
+export default Loading;
 
 const Logo = () => (
   <svg
