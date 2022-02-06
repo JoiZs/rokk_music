@@ -1,9 +1,9 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-const Header = React.lazy(() => import("../components/head/header"));
-const Footer = React.lazy(() => import("../components/foot/footer"));
-const Sidebar = React.lazy(() => import("../components/side/sidebar"));
-const Showcont = React.lazy(() => import("../components/cont/showcont"));
+import Header from "../components/head/header";
+import Footer from "../components/foot/footer";
+import Sidebar from "../components/side/sidebar";
+import Showcont from "../components/cont/showcont";
 
 interface Props {}
 
